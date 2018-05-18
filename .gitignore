@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Db3/bin/Debug
+/.vs
+/packages/*
+/Web1/bin/Debug/net461
+/Web1/obj
+/Db3/obj

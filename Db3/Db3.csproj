@@ -54,6 +54,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DefaultData.cs" />
+    <Compile Include="Migrations\201805200806093_1.cs" />
+    <Compile Include="Migrations\201805200806093_1.Designer.cs">
+      <DependentUpon>201805200806093_1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Model\Placeholder\SimplePlaceHolderEntity.cs" />
     <Compile Include="Utils\ConnectionStringProvider.cs" />
     <Compile Include="Extension\DbEntityValidationResultExtension.cs" />
@@ -68,10 +72,6 @@
     <Compile Include="Interfaces\RLS\IUserSecurityObjectsHandler.cs" />
     <Compile Include="Interfaces\RLS\PermissionEnum.cs" />
     <Compile Include="Interfaces\RLS\UserSecurityObjectsHandler.cs" />
-    <Compile Include="Migrations\201710071110282_1.cs" />
-    <Compile Include="Migrations\201710071110282_1.Designer.cs">
-      <DependentUpon>201710071110282_1.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\DbContext.cs" />
     <Compile Include="Model\Placeholder\PlaceholderEntityACL.cs" />
@@ -103,8 +103,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201710071110282_1.resx">
-      <DependentUpon>201710071110282_1.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201805200806093_1.resx">
+      <DependentUpon>201805200806093_1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

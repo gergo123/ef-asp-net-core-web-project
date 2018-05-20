@@ -1,13 +1,13 @@
 ﻿using System;
+using System.Net;
 using System.Collections.Generic;
 using System.Linq;
-using System.Net;
 using System.Threading.Tasks;
 using AutoMapper;
-using Db3.Model.Placeholder;
-using Db3.Repositories;
 using Microsoft.AspNetCore.Mvc;
 using Web1.ViewModels;
+using Db3.Repositories;
+using Db3.Model.Placeholder;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 

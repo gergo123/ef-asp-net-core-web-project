@@ -9,12 +9,12 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using System.Data.Entity;
 using AutoMapper;
-using Db3.RLS;
+using Db3.Utils;
 using Db3.Model;
 using Db3.Repositories.RLS;
-using Db3.Utils;
 using Db3.Repositories;
 using Db3.SecureRepository.PlaceHolder;
+using Db3.RLS;
 
 namespace Web1
 {

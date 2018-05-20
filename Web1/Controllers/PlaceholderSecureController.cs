@@ -5,7 +5,6 @@ using System.Threading.Tasks;
 using AutoMapper;
 using Db3.Interfaces.RLS;
 using Db3.Model.Placeholder;
-using Db3.Repositories;
 using Db3.RLS;
 using Db3.SecureRepository.PlaceHolder;
 using Microsoft.AspNetCore.Mvc;

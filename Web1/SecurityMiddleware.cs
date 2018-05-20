@@ -24,7 +24,7 @@ namespace Web1
             _logger = logger;
         }
 
-        //https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware/?view=aspnetcore-2.0&tabs=aspnetcore2x#per-request-dependencies
+        // https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware/?view=aspnetcore-2.0&tabs=aspnetcore2x#per-request-dependencies
         public async Task Invoke(HttpContext context, CurrentUserProvider currentUser,
             SecurityIdentityRepository rlsRepo, PermissionService permissionService)
         {
